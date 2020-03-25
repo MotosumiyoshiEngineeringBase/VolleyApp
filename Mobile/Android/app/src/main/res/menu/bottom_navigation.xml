@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_navigation"
+    app:showAsAction="ifRoom">
+
+    <item
+        android:id="@+id/to_games_main"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/bottom_button_games_main" />
+
+    <item
+        android:id="@+id/to_album"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/bottom_button_album" />
+
+    <item
+        android:id="@+id/to_community"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="@string/bottom_button_community" />
+
+    <item
+        android:id="@+id/to_mypage"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/bottom_button_mypage" />
+
+</menu>

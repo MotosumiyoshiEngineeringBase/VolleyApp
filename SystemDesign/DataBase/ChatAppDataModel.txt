@@ -1,0 +1,33 @@
+Å°Chat App Data Model
+{
+"messages": {"id": "xxxxxx(Å¶auto)",
+             "name": "Tokyo Volleyball Community",
+             "message": [
+                {"id": "123xcv(Å¶auto)", 
+                 "name": "Wai Taro",
+                 "createDate":"2020/03/03 10:10:00",
+                 "photoUrl": "http://xxxx/...",
+                 "imageUrl": "https://firebasestorage.googleapis.com/...",
+                 "text":"Hello"
+                },
+                {"id": "123xcv(Å¶auto)", 
+                 "name": "Wai Taro",
+                 "createDate":"2020/03/03 10:10:00",
+                 "photoUrl": "http://xxxx/...",
+                 "text":"good night"
+                }
+              ]
+            },
+            {"id": "yyyy(Å¶auto)",
+             "name": "Hokkaido Circle",
+             "message": [
+                {"id": "123xcv(Å¶auto)", 
+                 "name": "Wai Taro",
+                 "createDate":"2020/03/03 10:10:00",
+                 "photoUrl": "http://xxxx",
+                 "imageUrl": "https://firebasestorage.googleapis.com/...",                 
+                 "text":"hi,We are...."
+                },..
+               ]
+            }
+}

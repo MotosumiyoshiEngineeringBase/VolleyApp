@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".GroupCommunityActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        android:layout_margin="8dp"
+        android:text="最広流コミュニティ"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/groupRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="新規グループ名"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/createGroupSubmitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="グループを作る" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

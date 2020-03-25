@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">フォレックスリーグ</string>
+
+    <!--ボタンに表示するラベル名-->
+    <string name="bottom_button_games_main">大会情報</string>
+    <string name="bottom_button_community">最広の交流</string>
+    <string name="bottom_button_album">大会アルバム</string>
+    <string name="bottom_button_mypage">マイページ</string>
+    <string name="top_menu_button_join">大会に参加する</string>
+    <string name="top_menu_button_joined">過去参加情報</string>
+    <string name="top_menu_button_pay">支払い</string>
+    <string name="top_menu_button_qa">問い合わせ情報</string>
+    <string name="chat_button_send">送信</string>
+
+    <!-- メニュー表記 -->
+    <string name="menu_sign_out">ログアウト</string>
+
+</resources>
