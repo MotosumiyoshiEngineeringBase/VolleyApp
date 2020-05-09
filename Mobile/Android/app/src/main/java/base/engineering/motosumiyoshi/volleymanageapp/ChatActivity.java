@@ -349,8 +349,6 @@ public class ChatActivity extends BaseActivity
                 mFirebaseAuth.signOut();
                 Auth.GoogleSignInApi.signOut(mGoogleApiClient);
                 mUsername = ANONYMOUS;
-                startActivity(new Intent(this, LoginActivity.class));
-                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
